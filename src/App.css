@@ -1,0 +1,60 @@
+.App{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(237, 237, 236);
+
+  
+}
+.App h1{
+  font-size: 20px;
+  text-align: center;
+  color: rebeccapurple;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.map{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+
+.country-container{
+  width: 28%;
+  background-color: rgb(228, 227, 227);
+  padding: 2%;
+  padding-top: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+
+  
+}
+
+.image-Container{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.image-Container img:nth-child(1){
+  width: 5rem;
+}
+
+.details{
+  text-align: center;
+  justify-content: space-between;
+
+}
+.details h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: teal;
+}
+.details p{
+  font-size: 20px;
+  line-height: 1;
+  color: red;
+}
